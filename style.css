@@ -3,3 +3,10 @@ body
     background-color: #45484A;
     color: #E0E0E0;
 }
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
