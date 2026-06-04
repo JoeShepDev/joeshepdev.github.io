@@ -11,3 +11,33 @@ body
     margin: 0 auto;
     padding: 0 40px;
 }
+
+.navbar
+{
+    background-color: dimgray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a
+{
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #FFFFFF;
+}
+
+footer
+{
+    background-color: dimgray;
+    text-align: left;
+    padding: 15px;
+}
+
+.spacer
+{
+    height: 20px;
+}
