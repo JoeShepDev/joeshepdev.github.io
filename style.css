@@ -23,11 +23,32 @@ nav a
 {
     color: #E0E0E0;
     text-decoration: none;
+    position: relative;
+}
+
+nav a::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #F59E0B;
+    transition: width 0.3s ease;
+    bottom: 1;
+    left: 0;
+}
+
+nav a:hover::after
+{
+    width: 100%;
 }
 
 nav a:hover
 {
     color: #FFFFFF;
+    text-shadow: 0 0 5px #F59E0B;
+    letter-spacing: 0.5px;
 }
 
 .accent-text
