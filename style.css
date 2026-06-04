@@ -30,14 +30,46 @@ nav a:hover
     color: #FFFFFF;
 }
 
-footer
+.hero
 {
-    background-color: dimgray;
-    text-align: left;
-    padding: 15px;
+    margin-top: 20px;
+    border-left: 4px solid #E0E0E0;
+    background-color: #4E5154;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.hero-title
+{
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.hero-subtitle
+{
+    font-size: 1.8em;
+    font-weight: italic;
+}
+
+.project-card
+{
+    border: 1px solid #3a3d3f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3f4144;
 }
 
 .spacer
 {
     height: 20px;
+}
+
+footer
+{
+    background-color: dimgray;
+    text-align: left;
+    padding: 15px;
+    border-radius: 8px;
 }
