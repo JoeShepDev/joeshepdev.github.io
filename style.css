@@ -70,6 +70,16 @@ nav a:hover
     padding: 20px;
     margin-bottom: 20px;
     background-color: #3f4144;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover
+{
+    /*For Effects on Hover--*/
+    background-color: #45484A;
+    border-color: #F59E0B;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.5);
 }
 
 .skills
